@@ -1,0 +1,46 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(57, 57, 189);
+  display: flex;
+  justify-content: center;
+}
+.banner {
+  color: blue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 0;
+}
+.create-array {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.array-choose {
+  width: 20%;
+}
+.random-number {
+  width: 80%;
+}
+.view {
+  font-size: 15px;
+  color: rgb(255, 194, 27);
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.text-fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+.form-example {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}

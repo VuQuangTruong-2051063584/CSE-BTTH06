@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sử dụng đối tượng Array</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>
+                <h1 class="banner">Thao tác trên mảng</h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="create-array">
+                <input onclick="tao_mang()" class="array-choose" type="button" value="Tạo Mảng">
+                <input class="random-number" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="view" type="text" value="Giá trị mảng sau khi sử lý">
+            </td>
+        </tr>
+        <tr>
+        <td>
+            <form >
+                <fieldset class="text-fields">
+                    <input onclick="sap_tang()" type="radio"  name="sapxep" id="sap-tang" checked>
+                    <label for="sap-tang">Sắp xếp tăng</label><br/>
+                    <input onclick="sap_giam()" type="radio" name="sapxep" id="sap-giam" >
+                    <label for="sap-giam" >Sắp xếp giảm</label><br/>
+                </fieldset>
+            </form>
+        </td>
+        </tr>
+        <tr>
+            <td>
+            <form class="form-example">
+                <div class="form-example">
+                  <label for="position">Thêm vào vị trí </label>
+                  <input type="text" name="position" id="position" required>
+                </div>
+                <div class="form-example">
+                  <label for="value">Giá trị </label>
+                  <input type="text" name="value" id="value" required>
+                </div>
+                <div class="form-example">
+                  <input onclick="them()" type="submit" value="Thêm">
+                </div>
+              </form>
+              </td>
+        </tr>
+    </table>
+   <script src="js/javascript.js"></script>
+</body>
+</html>
